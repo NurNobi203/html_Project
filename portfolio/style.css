@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* home start  */
+
+.table1 {
+  width: 1200px;
+  margin: auto;
+}
+
+.table1,
+tr,
+td,
+th {
+  padding: 10px;
+  font-size: 16px;
+}
+
+th {
+  width: 600px;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+.home {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(12, 60, 252, 0.6),
+      rgba(255, 0, 0, 0.458)
+    ),
+    url(top-view-colorful-paper-sheets.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.hader {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(26, 255, 45, 0.703),
+      rgba(253, 11, 11, 0.426)
+    ),
+    url(geometric-composition-made-with-blue-yellow-cardboard.jpg);
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.table2 {
+  width: 800px;
+  margin: auto;
+}
+
+.td1 {
+  width: 300px;
+}
+.td2 {
+  width: 500px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(255, 61, 27);
+  text-shadow: 5px 4px 8px blue;
+}
+span {
+  color: rgb(10, 161, 255);
+  text-shadow: 2px 3px 3px black;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 20px;
+  border-radius: 2px solid black;
+  background: transparent;
+  padding: 5px 20px;
+}
+
+/* home end */
+
+/* about start  */
+
+.about {
+  background-color: aliceblue;
+  width: 370px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
+}
+
+samp {
+  color: blue;
+  text-shadow: 2px 3px 3px green;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+button {
+  margin-left: 70px;
+  background: teal;
+  border: none;
+  color: white;
+  text-shadow: 4px 3px 5px black;
+}
